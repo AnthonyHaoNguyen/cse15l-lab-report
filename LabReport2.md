@@ -12,7 +12,7 @@ The handleRequest methods are called when running the code. The relevant argumen
 
 
 The path to the private key for my SSH key on my computer is located in file "id_rsa" under the .ssh folder. 
-![Image](inside.png)
+![Image](insideup.png)
 
 
 The path to the public key within the ieng6 account is in the file "authorized_keys" under the .ssh folder.
