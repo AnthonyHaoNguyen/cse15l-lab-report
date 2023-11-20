@@ -26,18 +26,18 @@ Keys Pressed: I typed `cd l` and then `<Tab><Enter>` to get into the lab7 direct
 ![Image](aa7.png)
 
 
-Keys Pressed: `<Ctrl+R><V><Enter>` got me into the command `vim ListExamples.java` to edit the file, <?>index1<enter>, <:>s/index1/index2<enter>, <:>wq<enter> 
+Keys Pressed: `<Ctrl+R><V><Enter>` got me into the command `vim ListExamples.java` to edit the file, `<?>index1<enter>`, `<:>s/index1/index2<enter>`, `<:>wq<enter>` these three moved the cursor to the place we want to edit, changed index1 to index2 and then saved and exited vim. 
 ## Run the tests, demonstrating that they now succeed
 
 
 ![Image](aa8.png)
 
 
-Keys Pressed: <up><up><enter>, this goes to the `bash test.sh` command to run the tests.
+Keys Pressed: `<up><up><enter>`, this goes to the `bash test.sh` command to run the tests.
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 
 ![Image](aa9up.png)
 
 
-Keys Pressed: `git add ListExamples.java`, `git commit`, `git push`
+Keys Pressed: I typed `git add ListExamples.java`, `git commit -m "done"`, `git push` since I didn't have any of this commands in my history.
