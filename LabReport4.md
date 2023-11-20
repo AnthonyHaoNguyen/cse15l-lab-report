@@ -5,7 +5,7 @@
 ![Image](aa4.png)
 
 
-Keys Pressed: `<up><enter>` , the command `ssh cs15lfa23qh@ieng6.ucsd.edu` was one up in one command history and it logged me into my ieng6 account without needing my password. 
+Keys Pressed: `<up><enter>` , the command `ssh cs15lfa23qh@ieng6.ucsd.edu` was one up in my command history and it logged me into my ieng6 account without needing my password. 
 ## Clone your fork of the repository from your Github account (using the SSH URL)
 
 
