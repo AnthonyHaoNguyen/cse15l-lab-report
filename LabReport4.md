@@ -33,11 +33,11 @@ Keys Pressed: `<Ctrl+R><V><Enter>` got me into the command `vim ListExamples.jav
 ![Image](aa8.png)
 
 
-Keys Pressed: `<up><up><enter>`, this goes to the `bash test.sh` command to run the tests.
+Keys Pressed: `<up><up><enter>`, this goes to the `bash test.sh` command to run the tests since we just called this command two lines before.
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 
 ![Image](aa9up.png)
 
 
-Keys Pressed: I typed `git add ListExamples.java`, `git commit -m "done"`, `git push` since I didn't have any of this commands in my history.
+Keys Pressed: I typed `git add ListExamples.java`, `git commit -m "done"`, `git push` since I didn't have any of these commands in my history and they updated github from the terminal.
