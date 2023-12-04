@@ -22,7 +22,7 @@ After trying the TA's response, the bug occured because the code didn't account 
 ## 4.
 
 
-The file and directory structure needed, and the contents of each file before fixing the bug is all from lab7 with some modifications. [Before fixing bug code](https://github.com/AnthonyHaoNguyen/lab7.git). 
+The file and directory structure needed, and the contents of each file before fixing the bug is all from lab7 with some modifications, here: [Before fixing bug code](https://github.com/AnthonyHaoNguyen/lab7.git). 
 
 
 To trigger the bug I just ran `bash test.sh` in the command line because the tests in `ListExamplesTests.java` file contains the usage of the `merge` method with null as an argument input.
