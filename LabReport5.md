@@ -16,7 +16,22 @@ For this consider the `throw` command and think about what null is and trace thr
 ![Image](acode.png)
 
 
-After trying the TA's response, the bug occured because the code didn't account for null because null is a special object that means an absence of a value, so it must be caught with some addition work in order to debug the bug. I changed the assert in the tests and created a throw `NullPointerException` in the code to catch if there a was a null anywhere in both input arguments.
+After trying the TA's response, the bug occured because the code didn't account for null because null is a special object that means an absence of a value, so it must be caught with some additional work in order to debug the bug. 
 
 
 ## 4.
+
+
+The file and directory structure needed, and the contents of each file before fixing the bug is all from lab7 with some modifications. [Before fixing bug code](https://github.com/AnthonyHaoNguyen/lab7.git). 
+
+
+To trigger the bug I just ran `bash test.sh` in the command line because the tests in `ListExamplesTests.java` file contains the usage of the `merge` method with null as an argument input.
+
+
+In order to fix the bug, I changed the assert in `ListExamplesTests.java` to `assertThrows` to check if the null was caught when running the fixed code. Then I created a `throw NullPointerException` in the beginning of the code to catch if there was a null anywhere in both input arguments.
+
+
+# Part 2
+
+
+During the second half of this quarter, I learned about vim and more about how to edit github from the terminal. I found it really interesting how much you can do just from the terminal like editing the files through vim. Vim makes it so that you view and edit files from your terminal and if you forget something about vim you can also use `vimtutor` to find commands and how to use it. Then when your done you can use `git add`, `git commit`, and `git push` to update your github and those are just some of the interesting things that I learned.
